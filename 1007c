@@ -10,4 +10,4 @@ int main(){
       printf("%lld\n%lld\n%lld\n%lld\n%lld\n%.2f", tong, hieu, tich, nguyen, du, thuong);
     }
     return 0;
-    }
+}
