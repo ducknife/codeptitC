@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define ll long long
+int main(){
+    ll n, t;
+    scanf("%lld", &t);
+    while(t--){
+    scanf("%lld", &n);
+    ll a = n * n;
+    printf("%lld\n",a);
+    }
+    return 0;
+}
