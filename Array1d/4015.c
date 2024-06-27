@@ -8,15 +8,15 @@ int main(){
 	    scanf("%d", &n);
 	    int a[n];
 	    for (int i = 0; i < n; i++){
-		    scanf("%d", &a[i]);
-		    dem[a[i]]++;
+		scanf("%d", &a[i]);
+		dem[a[i]]++;
 	    }
 	    printf("Test %d:\n", k);
 	    for (int i = 0; i < n; i++){
-			if (dem[a[i]] >= 1){
-			    printf("%d xuat hien %d lan\n", a[i], dem[a[i]]);
-			    dem[a[i]] = 0;
-            }
+		if (dem[a[i]] >= 1){
+		   printf("%d xuat hien %d lan\n", a[i], dem[a[i]]);
+		   dem[a[i]] = 0;
+            	}
 	    }
 	}
 }
