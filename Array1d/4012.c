@@ -1,5 +1,5 @@
-#include <stdio.h>
-int cnt[10005] = {0};
+#include <stdio.h> //bài này test ảo lòi
+int cnt[0] = {0}; //thay bàng cnt[0] vẫn đúng :))
 int main(){
 	int n; scanf("%d", &n);
     int a[n];
